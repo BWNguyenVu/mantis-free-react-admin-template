@@ -33,9 +33,12 @@
     "@svgr/webpack": "^8.1.0",
     "@vitejs/plugin-react": "^4.2.1",
     "apexcharts": "^3.49.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
     "formik": "^2.4.5",
     "framer-motion": "^11.0.8",
     "lodash": "^4.17.21",
+    "path": "^0.12.7",
     "process": "^0.11.10",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -92,6 +95,8 @@
     "eslint-plugin-react": "^7.34.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^3.2.5",
-    "react-error-overlay": "6.0.11"
+    "react-error-overlay": "6.0.11",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
   }
 }

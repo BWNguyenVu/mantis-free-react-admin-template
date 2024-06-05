@@ -7,7 +7,7 @@ import Stack from '@mui/material/Stack';
 import Chip from '@mui/material/Chip';
 
 // project import
-import Logo from './LogoMain';
+import logo from '../../../logoIsolutions.png';
 import config from 'config';
 
 // ==============================|| MAIN LOGO ||============================== //
@@ -16,7 +16,7 @@ const LogoSection = ({ sx, to }) => {
   return (
     <ButtonBase disableRipple component={Link} to={!to ? config.defaultPath : to} sx={sx}>
       <Stack direction="row" spacing={1} alignItems="center">
-        <Logo />
+        <img src={logo} alt="Logo" style={{ width: 'auto', height: 40 }} />
         <Chip
           label={import.meta.env.VITE_APP_VERSION}
           variant="outlined"
